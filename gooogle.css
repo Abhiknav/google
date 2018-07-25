@@ -1,0 +1,101 @@
+.*{
+    padding:0;
+    margin:0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    padding: 0;
+    margin: 0;
+    font-family: arial;
+    color: #555;
+}
+
+.float-left {
+    float: left;
+}
+.float-right {
+    float: right;
+}
+.row {
+    display: block;
+    width: 100%;
+}
+.row:before, .row:after {
+    content: " ";
+    clear: both;
+    display: table;
+}
+header {
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    float: left;
+}
+nav ul li a {
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+	margin-right:15px;
+}
+
+section {
+    padding: 30px 10px;
+    padding-top: 120px;
+}
+section .mail-container {
+    width: 1000px;
+    margin: 0 auto;
+}
+section .container {
+    text-align: center;
+}
+.form-group {
+    padding: 10px;
+    position: relative;
+}
+section .container form input {
+    width: 500px;
+    padding: 10px 20px;
+}
+section .container form .microphone {
+    position: absolute;
+    right: 255px;
+    top: 17px;
+    font-size: 23px;
+    color: blue;
+}
+section .container form button {
+    padding: 10px;
+    border: 1px solid #EEE;
+    background: #EEE;
+}
+.language {
+    padding: 8px;
+}
+.language span {
+    color: blue;
+    font-size: 12px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+}
+footer .footer-top, footer .footer-bottom {
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: #EEE;
+    border-bottom: 1px solid #CCC;
+}
+footer .footer-bottom {
+    padding-left: 10px;
+}
